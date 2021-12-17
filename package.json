@@ -6,8 +6,7 @@
     "start": "fkill :5000 :3000 -s && concurrently \"npm:backend\" \"npm:frontend\"",
     "frontend": "webpack serve --open",
     "backend": "node src/mocks/api.js",
-    "test": "cross-env NODE_ENV=testing jest --watchAll --verbose --forceExit",
-    "foo":"bar"
+    "test": "cross-env NODE_ENV=testing jest --watchAll --verbose --forceExit"
   },
   "devDependencies": {
     "@babel/core": "7.15.5",
